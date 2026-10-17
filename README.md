@@ -5,16 +5,13 @@ posteriors for conversion-rate experiments, credible intervals,
 probability-to-beat-control, and expected-loss based stopping rules —
 with a CLI for both one-shot analysis and sequential-test simulation.
 
-Every prior data-science repo in this portfolio ([kmeans][kmeans],
-[gradient-boosted-trees][gbdt], [collaborative-filtering][cf], …) has been
-point-estimate or ML-model-focused. This one is deliberately different:
-it's about *quantifying uncertainty and risk* in a decision, not fitting a
-model — the kind of thing a growth/product-analytics team actually runs
-in production to decide when an A/B test is done.
+Unlike a point-estimate or model-fitting project (see
+[gradient-boosted-trees][gbdt]), this one is about *quantifying
+uncertainty and risk* in a decision, not fitting a model: the kind of
+thing a growth or product-analytics team runs to decide when an A/B
+test is done.
 
-[kmeans]: https://github.com/arnavchawla26/kmeans-clustering-from-scratch
 [gbdt]: https://github.com/arnavchawla26/gradient-boosted-trees-from-scratch
-[cf]: https://github.com/arnavchawla26/collaborative-filtering-recommender
 
 ## What it does
 
